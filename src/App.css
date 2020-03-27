@@ -2,15 +2,15 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  font-family : "Bigelow Rules";
+  font-size : 72px;
+  color : white;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-family : "Rajdhani";
+  font-weight: Light 300;
+  color : white;
 }
 
 .App-header {

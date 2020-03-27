@@ -1,26 +1,39 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello MR <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+class App extends Component {
+  constructor() {
+    super();
+    //State ->
+    //JavaScript Object with properrties that we can access at any point inside of our class
+    this.state = {
+      people : [
+        {
+          name : "General",
+          id : "as123"
+        },
+        {
+          name : "Dracular",
+          id : "as345"
+        },
+        {
+          name : "Zombie",
+          id: "as897"
+        }
+      ]
+    }
+  }
+  render() {
+    return (
+      <div className="App">
+        <h1>People Rolodex</h1>
+      {
+        this.state.people.map(people => <h2 key={ people.id }>{ people.name }</h2>)
+      }
     </div>
-  );
+    )
+  }
 }
 
 export default App;
