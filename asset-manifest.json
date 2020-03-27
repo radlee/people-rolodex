@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/people-rolodex/static/css/main.a0b644cb.chunk.css",
+    "main.js": "/people-rolodex/static/js/main.7edb6989.chunk.js",
+    "main.js.map": "/people-rolodex/static/js/main.7edb6989.chunk.js.map",
+    "runtime-main.js": "/people-rolodex/static/js/runtime-main.047f4c5f.js",
+    "runtime-main.js.map": "/people-rolodex/static/js/runtime-main.047f4c5f.js.map",
+    "static/js/2.290c8361.chunk.js": "/people-rolodex/static/js/2.290c8361.chunk.js",
+    "static/js/2.290c8361.chunk.js.map": "/people-rolodex/static/js/2.290c8361.chunk.js.map",
+    "index.html": "/people-rolodex/index.html",
+    "precache-manifest.56f77f041f727af6726393896c4f77b8.js": "/people-rolodex/precache-manifest.56f77f041f727af6726393896c4f77b8.js",
+    "service-worker.js": "/people-rolodex/service-worker.js",
+    "static/css/main.a0b644cb.chunk.css.map": "/people-rolodex/static/css/main.a0b644cb.chunk.css.map",
+    "static/js/2.290c8361.chunk.js.LICENSE.txt": "/people-rolodex/static/js/2.290c8361.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/people-rolodex/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.047f4c5f.js",
+    "static/js/2.290c8361.chunk.js",
+    "static/css/main.a0b644cb.chunk.css",
+    "static/js/main.7edb6989.chunk.js"
+  ]
+}
