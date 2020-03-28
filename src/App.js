@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
   constructor() {
     super();
     //State ->
-    //JavaScript Object with properrties that we can access at any point inside of our class
+    //JavaScript Object with properrties that we 
+    //can access at any point inside of our class
     this.state = {
       people : [
         {
