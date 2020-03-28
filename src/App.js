@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import logo from './reactdev.png';
 import './App.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
   constructor() {
@@ -27,6 +29,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <br></br>
+        <img src={logo} alt="logo" height="50px"/>;
         <h1>People Rolodex</h1>
       {
         this.state.people.map(people => <h2 key={ people.id }>{ people.name }</h2>)
