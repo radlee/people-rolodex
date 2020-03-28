@@ -12,15 +12,15 @@ class App extends Component {
     this.state = {
       people : [
         {
-          name : "General",
+          name : "General Mister",
           id : "as123"
         },
         {
-          name : "Dracular",
+          name : "Count Dracular ",
           id : "as345"
         },
         {
-          name : "Zombie",
+          name : "Vlad - The Impaler",
           id: "as897"
         }
       ]
@@ -31,7 +31,7 @@ class App extends Component {
       <div className="App">
         <br></br>
         <img src={logo} alt="logo" height="50px"/>;
-        <h1>People Rolodex</h1>
+        <h1>-People Rolodex-</h1>
       {
         this.state.people.map(people => <h2 key={ people.id }>{ people.name }</h2>)
       }
